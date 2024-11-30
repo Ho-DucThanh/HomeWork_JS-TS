@@ -22,6 +22,11 @@ function PhanTuTrungLap1(arr) {
   return result1;
 }
 
+function PhanTuTrungLap2(arr) {
+  return [...new Set(arr)];
+}
+
 arr = ["a", "b", "c", "a", 1, 1, 2];
 
 console.log(PhanTuTrungLap1(arr));
+console.log(PhanTuTrungLap2(arr));
